@@ -1,0 +1,183 @@
+html { overflow-x: hidden; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    line-height: 2em;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 350px;
+    background-image: url('depression.png');
+    background-repeat: no-repeat;
+  }
+
+header h1{
+    color: #0CC;
+    font-weight: 200;
+    font-size: 100px;
+    position: bottom;
+  }
+  header p{
+    color: rgb(52, 68, 68);
+  }
+  .username{
+      margin-left: 50px;
+      margin-bottom: -10px;
+  }
+ 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container-fluid{
+    padding: 20px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    }
+
+.tm-pt-30 
+{ padding-top: 20px; }  
+
+.tm-post-link:hover .tm-post-title { color: #0CC; }
+.tm-post-para{
+    }
+
+.tm-post { 
+    max-width: 470px;
+    border: 10px ;
+    border-radius: 5px;
+    padding: 35px;
+    margin-top: 1.5rem;
+    background: rgb(231, 253, 231); 
+    box-shadow: 5px 8px #0CC;
+}
+
+
+
+p, span { color: #999; }
+hr { 
+    border-top-color: #CCC; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tm-main {
+    margin-left: 1oopx;
+    padding: 20px 0px 25px;
+}
+
+.tm-row {
+    max-width: 980px;
+    justify-content: space-between;
+}
+
+hr.tm-hr-primary { border-top: 5px solid #0CC; }
+
+
+.tm-color-primary, span.tm-color-primary { color: #099; }
+a:hover { 
+    text-decoration: none; 
+    color: #048c8c;
+}
+
+
+@media (max-width: 1540px) {
+    .tm-header { width: 320px; }
+
+    .tm-main {
+        margin-left: 320px;
+        width: calc(100% - 320px);
+    }
+}
+
+@media (max-width: 1300px) {
+    
+}
+
+@media (max-width: 1288px) {
+    
+}
+
+@media (max-width: 1199px) {
+    
+}
+
+@media (max-width: 1086px) {
+    
+}
+
+@media (max-width: 991px) {
+    .tm-header {
+        width: 320px;
+        left: -320px;        
+        transition: all 0.3s ease;
+    }
+
+    .tm-main {
+        margin-left: 0;
+        padding: 50px 40px;
+        width: 100%;
+    }
+    .container-fluid {
+        margin: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container-fluid {
+        margin: 80px;
+    }
+    
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .container-fluid {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 709px) {
+    .container-fluid {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 826px) {
+
+    .container-fluid {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .container-fluid {
+        margin: 10px;
+    }
+   
+}
+
+@media (max-width: 575px) {
+    .container-fluid {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-fluid {
+        margin: 2px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container-fluid {
+        margin: 0px;
+    }
+}
