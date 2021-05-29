@@ -112,6 +112,10 @@ p
     text-align: center;
 }
 
+.para
+{
+    font-size: 25px;
+}
 .long-copy
 {
     line-height: 145%;
