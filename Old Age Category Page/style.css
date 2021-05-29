@@ -12,18 +12,18 @@ body {
 header {
     width: 100%;
     height: 350px;
-    background-image: url('depression.png');
+    background-image: url('elderly.png');
     background-repeat: no-repeat;
   }
 
 header h1{
-    color: #0CC;
+    color: rgb(69, 196, 196);
     font-weight: 200;
     font-size: 90px;
     position: bottom;
   }
   header p{
-    color: rgb(52, 68, 68);
+    color: rgb(161, 187, 187);
   }
   .username{
       margin-left: 50px;
